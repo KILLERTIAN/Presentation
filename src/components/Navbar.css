@@ -1,0 +1,27 @@
+.nav{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+    background: red;
+    padding: 5px 20px;
+}
+.logo{
+    position: absolute;
+}
+.logo img{
+    max-width: 100px;
+}
+.menu ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.menu ul li{
+    list-style: none;
+}
