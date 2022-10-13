@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css'
+import './Navbar.css';
 
 function Navbar() {
     return (
@@ -11,13 +11,10 @@ function Navbar() {
                 </a>
                 <h2>myCBSEguide</h2>
             </div>
-            <div className="menu">
-                <ul>
-                    <li><a href="/home">Home</a></li>
-                    <li><a href="/class">Class</a></li>
-                </ul>
-                
-            </div>
+            <ul className="navigation">
+                <li><a href="/home">Home</a></li>
+                <li><a href="/class">Class</a></li>
+            </ul>
         </div>
     )
 }
