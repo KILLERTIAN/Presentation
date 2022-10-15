@@ -12,7 +12,7 @@ function Navbar() {
                 <h2>myCBSEguide</h2>
             </div>
             <ul className="navigation">
-                <li><a href="/home">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="/class">Class</a></li>
             </ul>
         </div>
